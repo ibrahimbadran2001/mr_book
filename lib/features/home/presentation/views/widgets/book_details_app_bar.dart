@@ -17,6 +17,8 @@ class BookDetailsAppBar extends StatelessWidget {
             onPressed: (){},
             icon: const Icon(Icons.clear),
           ),
+
+
           AppCubit.get(context).isDark?
           Image.asset(
             height: 62,
